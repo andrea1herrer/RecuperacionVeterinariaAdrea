@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <TextView
+      android:text="GESTIÓN DE FACTUAS"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+        
+      android:gravity="center"
+      android:id="@+id/textView1" />
+
+       <EditText
+        android:hint="ID FACTURA(campo unico)"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="25dip"
+        android:id="@+id/txtIdFactura"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/txtIdMascota"
+        android:hint="ID MASCOTA"
+        android:gravity="center"/>
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+         android:inputType="number"
+       android:id="@+id/txtIDDueño"
+       android:hint="ID DUEÑO"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/txtOrden"
+        android:hint="ID ORDEN"
+        android:gravity="center"/>
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtNombreProducto"
+      android:hint="NOMBRE DEL PRODUCTO"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtValor"
+      android:hint="VALOR"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtCantidad"
+      android:hint="CANTIDAD"
+      android:gravity="center" />
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtFecha"
+      android:hint="Fecha"
+      android:gravity="center" />
+
+    <Button
+       android:text="REGISTRAR FACTURA"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+
+    <Button
+       android:text="CONSULTAR FACTURA"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnConsultar" />
+
+    <Button
+       android:text="INICIO DE LA APP"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnIrInicio" />
+   
+
+</LinearLayout>

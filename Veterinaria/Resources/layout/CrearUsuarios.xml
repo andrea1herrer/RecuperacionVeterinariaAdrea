@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+      android:text="GESTIÓN DE USUARIOS"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_marginTop="25dip"
+      android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCedula"
+        android:hint="CEDULA"
+        android:gravity="center"
+        android:layout_marginTop="25dip" />
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtNombre"
+       android:hint="NOMBRE"
+       android:gravity="center"
+       android:layout_marginTop="25dip" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEdad"
+        android:hint="EDAD"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_marginTop="25dip" />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtRol"
+      android:hint="ROL"
+      android:gravity="center"
+      android:layout_marginTop="25dip" />
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtPassword"
+      android:hint="CONTRASEÑA"
+      android:gravity="center"
+      android:layout_marginTop="25dip" />
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtComPassword"
+      android:hint="REPETIR CONTRASEÑA"
+      android:gravity="center"
+      android:layout_marginTop="25dip" />
+    <Button
+       android:text="REGISTRAR USUARIO"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+    <Button
+       android:text="INICIO DE APP"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnIrInicio" />
+    
+  
+   
+</LinearLayout>

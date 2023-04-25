@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+ 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+    <TextView
+      android:text="INGRESO A VETERINARIA"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_marginTop="45dip"
+
+      android:id="@+id/textView1" />
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIdentificacion"
+        android:hint="USER NAME"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="150dip" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:hint="PASSWORD"
+        android:password="true"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="230dip"/>
+
+    <Button
+       android:text="INGRESAR"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:layout_marginTop="300dip"
+       android:id="@+id/btnIngresar"/>
+
+  
+</RelativeLayout>

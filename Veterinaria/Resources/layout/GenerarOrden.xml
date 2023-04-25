@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <TextView
+      android:text="GESTIÓN DE ÓRDENES"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+     
+      android:id="@+id/textView1" />
+
+       <EditText
+        android:hint="ID(deber ser unica )"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="25dip"
+        android:id="@+id/txtIdOrden"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIdMascota"
+        android:hint="ID MASCOTA"
+        android:inputType="number"
+        android:gravity="center"/>
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtCedulaDueño"
+       android:hint="CEDULA DEL DUEÑO"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCedulaVeterinario"
+        android:hint="CEDULA VETERINARIO QUE ORDENA"
+        android:gravity="center"/>
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtCeduVeterinario"
+      android:hint="NOMBRE DEL MEDICAMENTO"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="datetime"
+      android:id="@+id/txtFecha"
+      android:hint="FECHA EN QUE SE GENERA LA HISTORIA CLINICA"
+      android:gravity="center"/>
+
+    <Button
+       android:text="GENERAR ÓRDEN"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+    <Button
+       android:text="INICIO DE LA APP"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnIrInicio" />
+   
+       
+</LinearLayout>

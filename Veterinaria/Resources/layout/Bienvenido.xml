@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <Toolbar
+        android:title="MENÚ"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="@android:color/holo_purple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarMenu"
+        android:layout_marginBottom="34.0dp" 
+        android:titleTextColor="@android:color/white"/>
+
+     <TextView
+        android:text="BIENVENIDO A LA GESTIÓN DE LA VETERINARIA."
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dip"
+        android:id="@+id/textView1" />
+
+     <TextView
+        android:text="Aquí podrás realizar los tramites necesarios en tu veterinaria de confianza, tales como registrar la mascota o realizar los diagnosticos"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+     
+   
+</LinearLayout>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veterinaria", "Veterinaria\Veterinaria.csproj", "{D52193C3-6DF2-4AC0-B4AE-E2D08A994BBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{AC10731C-3FC2-4C93-8E83-66ABA8583FB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D52193C3-6DF2-4AC0-B4AE-E2D08A994BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52193C3-6DF2-4AC0-B4AE-E2D08A994BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52193C3-6DF2-4AC0-B4AE-E2D08A994BBE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D52193C3-6DF2-4AC0-B4AE-E2D08A994BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52193C3-6DF2-4AC0-B4AE-E2D08A994BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52193C3-6DF2-4AC0-B4AE-E2D08A994BBE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CC29333-CC24-4263-8EA8-63B2CE418A0D}
+	EndGlobalSection
+EndGlobal

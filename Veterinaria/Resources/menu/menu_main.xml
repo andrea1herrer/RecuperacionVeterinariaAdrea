@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android ="http://schemas.android.com/apk/res/android">
+
+	<item
+	  android:id="@+id/icAdd"
+	  android:showAsAction="ifRoom"/>
+
+	<item
+		android:id="@+id/CrearUsuarios"
+		android:title="Gestionar Usuarios"/>
+
+	<item
+		android:id="@+id/HistoriaClinica"
+		android:title="Gestionar Historia Clinica"/>
+
+	<item
+		android:id="@+id/Mascotas"
+		android:title="Gestionar Mascotas"/>
+
+	<item
+		android:id="@+id/GenerarOrdenes"
+		android:title="Gestionar Orden"/>
+	
+	<item
+		android:id="@+id/GenerarFacturas"
+		android:title="Gestionar Ventas"/>
+	
+	<item
+		android:id="@+id/Salir"
+		android:title="Salir"/>
+
+
+</menu>

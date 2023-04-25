@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <TextView
+      android:text="GESTIÓN DE HISTORIAL DE MASCOTAS"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:id="@+id/textView1" />
+
+      <EditText
+        
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtIdOrden"
+      android:hint="ID ORDEN (debe ser unica)"
+      android:gravity="center" />
+
+       <EditText
+        android:hint="FECHA"
+        android:inputType="datetime"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFecha"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombreMedico"
+        android:hint="NOMBRE MEDICO O ESPECIALISTA"
+        android:gravity="center"/>
+
+    <EditText
+      
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtMotivoConsulta"
+       android:hint="MOTIVO DE LA CONSULTA"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSintomas"
+        android:hint="SINTOMAS"
+        android:gravity="center"/>
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtProcedimiento"
+      android:hint="PROCEDIMIENTO"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtMedicamento"
+      android:hint="MEDICAMENTO"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtDosisMedicamento"
+      android:hint="DOSIS MEDICAMENTO"
+      android:gravity="center" />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtHistorial"
+      android:hint="HISTORIAL DE VACUNACION"
+      android:gravity="center" />
+
+    
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtAlergiaMedicamento"
+      android:hint="MEDICAMENTOS A LOS QUE PRESENTA ALERGIA"
+      android:gravity="center" />
+    
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtDetalleProcedimiento"
+      android:hint="DETALLES DEL PROCEDIMIENTO"
+      android:gravity="center" />
+     
+
+    <Button
+       android:text="REGISTRAR HISTORIAL"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+     <Button
+       android:text="BUSCAR HISTORIAL"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnBuscar" />
+     <Button
+       android:text="ACTUALIZAR HISTORIAL"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnActualizar" />
+    <Button
+       android:text="INICIO DE LA APP"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_purple"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnIrInicio" />
+
+    
+   
+
+</LinearLayout>
